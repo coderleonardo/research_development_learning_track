@@ -11,6 +11,11 @@ class Book:
     # static methods do not receive class or instance arguments
     # and usually operate on data that is not instance- or
     # class-specific
+
+    # It is appropriate to define a static method inside a class when
+    # you want to make a class callable and not have its state modified
+
+    # Static method knows nothing about the class and just deals with the parameters
     @staticmethod
     def getbooklist():
         if Book.__booklist == None:
@@ -19,6 +24,8 @@ class Book:
 
     # class methods receive a class as their argument and can only
     # operate on class-level data
+
+    # Class method works with the class since its parameter is always the class itself
     @classmethod
     def getbooktypes(cls):
         return cls.BOOK_TYPES

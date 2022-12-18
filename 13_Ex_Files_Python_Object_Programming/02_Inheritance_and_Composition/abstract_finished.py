@@ -10,7 +10,7 @@ class GraphicShape(ABC):
         super().__init__()
 
     # declaring a method as abstract requires a subclass to implement it
-    @abstractmethod
+    @abstractmethod # abstract decorator
     def calcArea(self):
         pass
 

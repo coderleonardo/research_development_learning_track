@@ -39,8 +39,8 @@ b3 = Book("War and Peace", "Leo Tolstoy", 39.95)
 b4 = Book("To Kill a Mockingbird", "Harper Lee", 24.95)
 
 # Check for equality
-print(b1 == b3)
-print(b1 == b2)
+# print(b1 == b3)
+# print(b1 == b2)
 # print(b1 == 42)
 
 # Check for greater and lesser value
@@ -52,3 +52,5 @@ print(b3 >= b2)
 books = [b1, b3, b2, b4]
 books.sort()
 print([book.title for book in books])
+
+# check data model documentation in Python

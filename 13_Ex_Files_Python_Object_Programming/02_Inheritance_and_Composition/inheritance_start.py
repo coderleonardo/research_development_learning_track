@@ -1,7 +1,6 @@
 # Python Object Oriented Programming by Joe Marini course example
 # Understanding class inheritance
 
-
 class Book:
     def __init__(self, title, author, pages, price):
         self.title = title
