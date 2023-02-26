@@ -1,7 +1,5 @@
 # R&D Learning Track
 
-Repository with all the courses of the R&D Academy offer by SAMSUNG.
-
 ## Content
 
 - 01: Python Essential Training
